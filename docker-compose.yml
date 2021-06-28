@@ -2,5 +2,5 @@ version: '3.4'
 services:
   erp-discovery:
     image: dehemart/erp-discovery:latest
-    container_name: erp-produto
+    container_name: erp-discovery
     network_mode: host
