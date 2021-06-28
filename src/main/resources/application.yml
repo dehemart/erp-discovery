@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: erp-discovery
+
 server:
   port: ${PORT:8761}
 
