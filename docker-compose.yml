@@ -3,4 +3,5 @@ services:
   erp-discovery:
     image: dehemart/erp-discovery:latest
     container_name: erp-discovery
-    network_mode: host
+    ports:
+    - "8761:8761"
