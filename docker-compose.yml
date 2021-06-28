@@ -5,3 +5,7 @@ services:
     container_name: erp-discovery
     ports:
       - 8761:8761
+    environment:
+      PORT: 8761
+      LOG_EUREKA_TURN: "OFF"
+      LOG_DISCOVERY_TURN: "OFF"

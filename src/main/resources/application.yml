@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: ${PORT:8761}
 
 eureka:
   client:
@@ -8,5 +8,5 @@ eureka:
 
 logging:
   level:
-    com.netflix.eureka: OFF
-    com.netflix.discovery: OFF
+    com.netflix.eureka: ${LOG_EUREKA_TURN:OFF}
+    com.netflix.discovery: ${LOG_DISCOVERY_TURN:OFF}
