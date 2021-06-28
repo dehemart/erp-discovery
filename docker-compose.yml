@@ -4,4 +4,4 @@ services:
     image: dehemart/erp-discovery:latest
     container_name: erp-discovery
     ports:
-    - "8761:8761"
+      - 8761:8761
