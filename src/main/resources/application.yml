@@ -12,5 +12,5 @@ eureka:
 
 logging:
   level:
-    com.netflix.eureka: ${LOG_EUREKA_TURN:OFF}
-    com.netflix.discovery: ${LOG_DISCOVERY_TURN:OFF}
+    com.netflix.eureka: ${LOG_EUREKA_TURN:INFO}
+    com.netflix.discovery: ${LOG_DISCOVERY_TURN:INFO}
